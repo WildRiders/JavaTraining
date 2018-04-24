@@ -23,6 +23,8 @@ public class Class_01_Basic {
 
                         public static int staticValue; //
 
+                        //test
+
     /**Constractor
     * 1) same name as Class
     * 2) Can be private, default, protected or public
