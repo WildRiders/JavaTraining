@@ -32,6 +32,9 @@ public class Starter_DataType {
         System.out.println("HashCode o2: " + object.hash2);
         System.out.println("HashCode o3: " + object.hash3);
 
+        System.out.println("Equality4: " + object.equality4);
+        System.out.println("Equality5: " + object.equality5);
+
         /***********************************************************************************************************/
         System.out.println("*****************************************STRINGS********************************************");
 

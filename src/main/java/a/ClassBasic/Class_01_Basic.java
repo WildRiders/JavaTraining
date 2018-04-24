@@ -25,11 +25,10 @@ public class Class_01_Basic {
 
                         //test
 
-    /**Constractor
+    /**Constructor
     * 1) same name as Class
     * 2) Can be private, default, protected or public
     * 3) Can overloaded
-    *
     * */
 
                         public Class_01_Basic() {
@@ -77,8 +76,9 @@ public class Class_01_Basic {
                         }
 
     /** static methods
-     * 1)
-     *
+     * 1) Belongs to class, no to object
+     * 2) The instance doesn't need to created
+     * 3) Can access to static members and change the value of it
      */
 
                         public static void doSomethingStatic(){
@@ -86,7 +86,11 @@ public class Class_01_Basic {
                         }
 
     /**equals and hashCode
-    1)
+     * hashCode
+     * 1) Unique random int value
+     * 2) equals = true, when 2 objects have same hasCode numbers
+     * 3) equals = true, when 2 objects have different hasCode numbers
+     * 4) use Generate hashCode() and equals()
      */
                         @Override
                         public boolean equals(Object o) {
@@ -106,8 +110,9 @@ public class Class_01_Basic {
                             return result;
                         }
 
-    /**
-     * 1) toString method -
+    /**toString()
+     * 1) string representation of object
+     * 2) getClass().getName() + '@' + Integer.toHexString(hashCode())
      */
                         @Override
                         public String toString() {

@@ -51,13 +51,5 @@ public class Starter_Class {
 
                         classMethods.foo(firstName);
                         classMethods.foo(firstName,lastName);
-
-        /***********************************************************************************************************/
-        System.out.println("*****************************************SCOPER********************************************");
-                        Class_03_Scope scope = new Class_03_Scope();
-
-                        scope.changeNumber1();
-                        scope.printResults1();
-
     }
 }

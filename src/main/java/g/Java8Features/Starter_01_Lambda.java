@@ -7,8 +7,6 @@ public class Starter_01_Lambda {
 
             /** parameter -> expression body
              *
-             *
-             *
              */
 
             MathOperation addition = (int a, int b) -> {return a + b;};
